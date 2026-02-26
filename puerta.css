@@ -1,0 +1,104 @@
+body {
+    font-family:monospace;
+    margin-top: 5%;
+    background-image: url("img/Background.jpg");
+    background-size: 2000px 1600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #007BBF;
+}
+img {
+    width: 150px;
+}
+#tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#p1, #p2, #p3{
+    background-color: #ffffff;
+    border: 0;
+}
+#top_tbl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #007BBF;
+    color: #ffffff;
+    text-shadow: none;
+
+}
+
+#win, #lose, #bl, #cambio{
+    width: 500px;
+}
+
+#camb_s, #camb_n {
+    height: 52px;
+    width: 50px;
+    font-size: medium;
+    background-color: #007BBF;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+#repe {
+    height: 40px;
+    font-size: medium;
+    background-color: #007BBF;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+
+h4 {
+    position: fixed;
+    bottom: -165px;
+    height: 200px;
+    left: 200px;
+}
+h5 {
+    position: fixed;
+    bottom: -195px;
+    height: 200px;
+    left: 200px;
+}
+h2 {
+    position: fixed;
+    bottom: -170px;
+    height: 200px;
+    left: 800px;
+}
+
+header {
+    text-align: center;
+    font-size: x-large;
+}
+
+#logo {
+    position: fixed;
+    left: 20px;
+    bottom: 2px;
+    width: 125px;
+}
+
+#Nico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+
+}
+
+
+
