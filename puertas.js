@@ -168,10 +168,10 @@ function cambiar_s() {
                 document.getElementById("1-1").hidden = false;
                 ganar();
             } else if (puerta == 3) {
-                document.getElementById("p2").hidden = true;
+                document.getElementById("p1").hidden = true;
                 document.getElementById("e3").hidden = true;
-                document.getElementById("e2").hidden = false;
-                document.getElementById("1-2").hidden = false;
+                document.getElementById("e1").hidden = false;
+                document.getElementById("1-1").hidden = false;
                 ganar();
             }
             break;
