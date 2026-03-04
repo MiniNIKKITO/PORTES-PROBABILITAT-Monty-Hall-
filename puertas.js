@@ -317,5 +317,6 @@ function parartodo() {
     document.getElementById("victoria").innerHTML = porcentaje + "%";
 }
 function easteregg() {
-  window.alert("ERNEST, PUJA'NS LA NOTA porfa");
+  window.alert("quina probabilitat hi ha de que ens pugis la nota??");
 }
+
